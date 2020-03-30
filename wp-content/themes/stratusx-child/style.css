@@ -1,0 +1,210 @@
+/*
+Theme Name:     Stratus - Child Theme
+Theme URI:      http://themovation.com/stratus
+Template:       stratusx
+Author:         Themovation
+Author URI:     http://themovation.com
+Version:        3.0
+Text Domain:    stratus
+Domain Path:    /languages/
+*/
+
+
+/* = Theme customization starts here
+-------------------------------------------------------------- */
+
+.page-id-13302 .content-editor {
+	background: #231f20;
+    max-width: none;
+    width: 100%;
+}
+
+.page-id-13302 .sonacast-container {
+	width: calc(100% - 30px);
+    max-width: 1170px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-id-13302 .sonacast-episode span {
+	background-color: goldenrod;
+	color: #000;
+}
+
+.page-id-13302 .sonacast-episode {
+	background-color: #fff;
+	box-shadow: none;
+}
+
+.wpautoterms-footer {
+	position: static;
+	padding-bottom: 15px;
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+	.page-id-13302 .sonacast-container {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.page-id-13302 .inner-container > .content-editor {
+		padding: 40px 5%;
+	}
+}
+
+@media (max-width: 1024px) {
+	body {
+		margin-bottom: 58px;
+	}
+}
+
+@media (max-width: 450px) {
+	.page-id-13302 .sonacast-container {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.page-id-13302 .inner-container > .content-editor {
+		padding: 40px 5%;
+	}
+	.social_media_bar_container_inner p {
+		padding-left: 0!important;
+	}
+	.social_media_bar_container ul {
+		padding-left: 0;
+	}
+	body {
+		margin-bottom: 84px;
+	}
+}
+
+.single .wp-post-image {
+	display: none;
+}
+
+.promo-banner {
+    padding-top: 84px;
+}
+
+@media (max-width: 450px) {
+	.alignright, alignleft {
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+	.alignright, alignleft {
+		max-width: 50%;
+	}
+}
+
+.alignright, alignleft {
+	margin-top: 10px;
+}
+
+.sgl-cat-meet-the-board .post-meta, .sgl-cat-meet-the-board #comments, .sgl-cat-meet-the-board .meta-tags {
+	display: none;
+}
+
+body.single.sgl-cat-meet-the-board .entry-content {
+	padding: 0;
+}
+
+.promo-banner .wrap {
+    padding-top: 0!important;
+}
+
+.yl-item-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.yl-item-wrapper {
+    margin-bottom: 3.0728%;
+    text-align: center;
+    flex-basis: 48%;
+	margin-right: 4%;
+}
+.yl-item-wrapper:nth-child(2n) {
+	margin-right: 0;
+}
+.yl-focus, .yl-text {
+	width: 100%;
+	float: none;
+}
+#your-page-column #ymax.youmax-pro {
+	background-color: transparent;
+}
+.yl-header, .yl-list-title, .yl-focus, .yl-load-more-button {
+	display: none;
+}
+.yl-grid .yl-wrapper, .youmax-pro .yl-wrapper, .yl-simple-thumbnails .yl-text {
+	padding: 0;
+}
+.video-container {
+	padding-top: 0;
+}
+
+body #your-page-column {
+	width: 100%;
+}
+
+body .yl-list .yl-title-description-wrapper {
+	max-height: none;
+}
+
+body .yl-simple-thumbnails .yl-title {
+	height: auto;
+	padding: 15px 0;
+	border-bottom: 1px solid #000;
+	font-size: 20px!important;
+	max-height: none;
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+	body .yl-simple-thumbnails .yl-title {
+		font-size: 16px!important;
+	}
+}
+
+@media (max-width: 450px) {
+	body .yl-item-wrapper {
+		flex-basis: 100%;
+		margin-right: 0;
+	}
+	body .yl-simple-thumbnails .yl-title {
+		font-size: 16px!important;
+	}
+}
+
+@media (max-width: 768px) {
+	body .yl-simple-thumbnails .yl-title {
+		font-size: 16px!important;
+	}
+}
+
+body .yl-list .yl-text {
+    padding: 0!important;
+}
+
+body .yl-simple-thumbnails .yl-description {
+	margin-top: 25px;
+}
+
+body .yl-description {
+	font-size: 1em!important;
+	line-height: 1.75em;
+	font-weight: inherit;
+}
+
+body .yl-item {
+	font-family: inherit;
+}
+
+body .yl-simple-thumbnails .yl-description {
+	display: block;
+}
+
+.elementor-pagination {
+    margin-top: 30px;
+}
