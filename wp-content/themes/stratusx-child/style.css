@@ -13,6 +13,10 @@ Domain Path:    /languages/
 /* = Theme customization starts here
 -------------------------------------------------------------- */
 
+#yrc-shell-0 .yrc-item-meta {
+    margin-top: 5px;
+}
+
 .page-id-13302 .content-editor {
 	background: #231f20;
     max-width: none;
